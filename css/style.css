@@ -203,6 +203,7 @@
  */
 .card-body {
     padding: 16px 16px;
+    overflow: hidden;
 }
 
 .card-horizontal .card-body {
