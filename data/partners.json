@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "name" : "Ikkai (Lazada)",
+        "description" : "₱100 Off by redeeming this voucher",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/partnerships/01.JPG",
+        "link" : "https://www.lazada.com.ph/shop/i/landing_page/voucher?sellerId=500166003041&voucherId=900000000545817&wh_weex=true"
+    },
+
+    {
+        "id" : 1,
+        "name" : "Ikkai (Shoppee)",
+        "description" : "'Use IKKAIXJAO' for ₱100 Off",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/partnerships/01.JPG",
+        "link" : null
+    },
+
+    {
+        "id" : 2,
+        "name" : "VSNRY Cafe",
+        "description" : "10% Off by using the code JAO10OFF",
+        "enabled" : false,
+        "thumbnail" : "./assets/images/partnerships/02.JPG",
+        "link" : "https://www.instagram.com/vsnry.cafe/"
+    }
+]

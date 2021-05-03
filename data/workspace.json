@@ -1,0 +1,55 @@
+[
+    {
+        "id" : 1,
+        "name" : "Fitdesk Table",
+        "description" : "Walnut Desktop + Black stainless stand.",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/workspace/01.JPG",
+        "link" : "https://www.lazada.com.ph/products/table-home-office-desk-table-computer-desk-furniture-120cm-x-60cm-x-74cm-solid-wood-stainless-steel-i449614528-s1140210932.html?dsource=share&laz_share_info=94870585_100_100_11754401_69732916_null&laz_token=dbc255114c51a3888a3a700ee745575e"
+    },
+
+    {
+        "id" : 2,
+        "name" : "Ikkai Deskmat",
+        "description" : "700x300 Black leather.",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/workspace/02.JPG",
+        "link" : "https://www.lazada.com.ph/shop/ikkai?tab=promotion&path=promotion-26573-0.htm&spm=a2o4l.pdp_revamp.seller.1.25d34c5fh7gkL4&itemId=1153970959&channelSource=pdp"
+    },
+
+    {
+        "id" : 3,
+        "name" : "Mechanical Keyboard",
+        "description" : "IKBC New poker II",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/workspace/03.JPG",
+        "link" : "https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=2862"
+    },
+
+    {
+        "id" : 4,
+        "name" : "Mouse",
+        "description" : "Logitech MX Master 2s",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/workspace/04.JPG",
+        "link" : "https://www.lazada.com.ph/products/logitech-mx-master-2s-wireless-mouse-spoyl-store-i303874871-s555964695.html?spm=a2o4l.searchlist.list.10.fa671a8bR8qskZ&search=1"
+    },
+
+    {
+        "id" : 5,
+        "name" : "PC Build",
+        "description" : "Custom PC Build",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/workspace/05.JPG",
+        "link" : "https://www.lazada.com.ph/products/i357064013-s807896396.html?urlFlag=true&mp=1"
+    },
+
+    {
+        "id" : 6,
+        "name" : "AI Assistant + Speaker",
+        "description" : "Google Home Mini Gen 2.0",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/workspace/06.JPG",
+        "link" : "https://www.lazada.com.ph/products/i815424877-s2515740552.html?urlFlag=true&mp=1"
+    }
+]

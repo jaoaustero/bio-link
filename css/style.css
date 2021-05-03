@@ -1,0 +1,318 @@
+/* Variables
+ * ============================================================ */
+:root {
+    /* Colors */
+    --color-white-1: #FFFFFF;
+    --color-black-1: #000000;
+    --color-cream-1: #FFDFAE;
+
+    /* Typography */
+    --text-header-1: 2rem;
+    --text-title: 1.2rem;
+    --text-lead: 1rem;
+    --text-meta: 0.8rem;
+
+    /* Border */
+    --border-width: 1px;
+    --border-radius: 8px;
+}
+
+
+/* Images
+ * ============================================================ */
+.avatar {
+    height: 120px;
+    width: 120px;
+
+    border-radius: 100%;
+}
+
+
+/* Button
+ * ============================================================ */
+.button {
+    margin: 0;
+
+    border: none;
+
+    overflow: visible;
+
+    font: inherit;
+    color: initial;
+    background-color: transparent;
+
+    text-transform: none;
+
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px;
+    font-size: 1rem;
+
+    text-align: center;
+
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+
+/* Link
+ * ============================================================ */
+.link {
+    text-decoration: none;
+    color: initial;
+}
+
+
+/* Wrappers
+ * ============================================================ */
+.container {
+    max-width: 500px;
+    padding: 0 30px;
+
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.section {
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.section + .section {
+    margin-bottom: 50px;
+}
+
+
+/* Margins
+ * ============================================================ */
+.margin-top-xsmall {
+    margin-top: 10px;    
+}
+
+.margin-top-small {
+    margin-top: 20px;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin-top-medium {
+    margin-top: 40px;
+}
+
+.margin-top-large {
+    margin-top: 50px;
+}
+
+/***/
+
+.margin-bottom-xsmall {
+    margin-bottom: 10px;    
+}
+
+.margin-bottom-small {
+    margin-bottom: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-medium {
+    margin-bottom: 40px;
+}
+
+.margin-bottom-large {
+    margin-bottom: 50px;
+}
+
+
+/* Text
+ * ============================================================ */
+.text-header {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-lead {
+    font-size: 1rem;
+    font-weight: initial;
+}
+
+.text-meta {
+    font-size: 0.6rem;
+    font-weight: initial;
+}
+
+
+/* Title
+ * ============================================================ */
+.title {
+    position: relative;
+    width: fit-content;
+
+    z-index: 1000;
+}
+
+.title::before {
+    content: '';
+
+    height: calc(100% - 8px);
+    width: calc(100% + 8px);
+
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    z-index: -1000;
+
+    background-color: var(--color-cream-1);
+    transition: background 0.3s ease-in-out;
+}
+
+
+/* Card
+ * ============================================================ */
+.card {
+    position: relative;
+    box-sizing: border-box;
+
+    border-radius: var(--border-radius);
+    background-color: var(--color-black-1);
+    transition: background 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.card.card-horizontal {
+    display: flex;
+}
+
+
+/*
+ * Sections
+ */
+.card-body {
+    padding: 16px 16px;
+}
+
+.card-horizontal .card-body {
+    /* flex: 1; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-header {
+    padding: 12px 16px;
+}
+
+.card-media {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-media.card-media-left {
+    height: 100px;
+    width: 100px;
+
+    min-height: 100px;
+    min-width: 100px;
+}
+
+/*
+ * 1. Set the dimensions
+ * 2. Make the object fit the parent
+ * We set the object to cover and overflow hidden on its parent to avoid
+ * inconsistent sizes of images, it will mask the image of its parent container
+ * which are "#{$prefix}-card-media-*"
+ */
+.card-media img,
+.card-media video {
+     /* 1 */
+     height: 100%;
+     width: 100%;
+ 
+     /* 2 */
+     object-fit: cover;
+     object-position: center;
+ }
+
+
+/*
+ * Text
+ */
+.card-title {
+    font-size: var(--text-lead);
+    font-weight: bold;
+    color: var(--color-white-1);
+}
+
+.card-meta {
+    font-size: var(--text-meta);
+    color: var(--color-white-1);
+    opacity: 0.8;
+
+    max-width: 100%;
+
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* List
+ * ============================================================ */
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    margin-bottom: 16px;
+}
+
+.list li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Utilities
+ * ============================================================ */
+.text-center {
+    text-align: center;
+}
+
+
+/* Dark mode
+ * ============================================================ */
+ @media (prefers-color-scheme: light) {
+    html, body {
+        background-color: var(--color-white-1);
+    }
+
+    .title::before {
+        background-color: var(--color-cream-1);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #1C212B;
+    }
+
+    .title::before {
+        background-color: #9A7B4C;
+    }
+}

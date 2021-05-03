@@ -1,0 +1,46 @@
+[
+    {
+        "id" : 1,
+        "name" : "Cone Dripper",
+        "description" : "Timemore Crystal Eye glass 02",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/coffee-nook/01.JPG",
+        "link" : "https://www.lazada.com.ph/products/i1540972711-s6530352032.html?urlFlag=true&mp=1"
+    },
+
+    {
+        "id" : 2,
+        "name" : "Manual Hand-grinder",
+        "description" : "Timemore Slim hand grinder",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/coffee-nook/02.JPG",
+        "link" : "https://www.lazada.com.ph/products/timemore-slim-stainless-steel-burr-manual-coffee-grinder-i487674873-s1278698578.html?spm=a2o4l.searchlist.list.1.599a5df8AOQVuc&search=1"
+    },
+
+    {
+        "id" : 3,
+        "name" : "Weighing Scale",
+        "description" : "Timemore Basic scale",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/coffee-nook/03.JPG",
+        "link" : "https://www.lazada.com.ph/products/timemore-scale-black-mirror-basic-version-i585408417-s1599800848.html?mp=1"
+    },
+
+    {
+        "id" : 4,
+        "name" : "Decanter",
+        "description" : "Timemore Decanter 02",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/coffee-nook/04.JPG",
+        "link" : "https://www.lazada.com.ph/products/i1540972711-s6530352032.html?urlFlag=true&mp=1"
+    },
+
+    {
+        "id" : 5,
+        "name" : "Vacuum Canister",
+        "description" : "Fellow Atmos Glass 1.2L",
+        "enabled" : true,
+        "thumbnail" : "./assets/images/coffee-nook/05.JPG",
+        "link" : "https://www.lazada.com.ph/products/fellow-atmos-vacuum-canister-coffee-beans-sealed-glass-container-airtight-food-storage-jar-i757710511-s4298816996.html?mp=1"
+    }
+]
