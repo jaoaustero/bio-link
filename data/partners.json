@@ -11,16 +11,16 @@
     {
         "id" : 2,
         "name" : "Ikkai (Shoppee)",
-        "description" : "'Use IKKAIXJAO' for ₱100 Off",
+        "description" : "Use 'IKKAIXJAO' for ₱100 Off",
         "enabled" : true,
         "thumbnail" : "./assets/images/partnerships/01.JPG",
-        "link" : null
+        "link" : "https://shopee.ph/ikkai_official"
     },
 
     {
         "id" : 3,
         "name" : "The VSNRY Coffee",
-        "description" : "Coming Soon",
+        "description" : "Use 'VSNRYXJAO' for 10% Off",
         "enabled" : true,
         "thumbnail" : "./assets/images/partnerships/02.jpg",
         "link" : "https://www.instagram.com/vsnry.cafe/"
